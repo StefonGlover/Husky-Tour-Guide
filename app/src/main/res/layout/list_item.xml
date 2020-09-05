@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="375dp"
+        android:layout_height="354dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/androidparty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/attractionName"
+        style="@style/Header"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/picture"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/attractionDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/attractionName"
+        tools:text="This beautiful attraction is the home of famous Glover. It has withstand generations." />
+
+    <ImageView
+        android:id="@+id/dropPin"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/pin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/attractionDescription" />
+
+    <TextView
+        android:id="@+id/attractionLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginTop="8dp"
+        android:text="Location"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/dropPin"
+        app:layout_constraintTop_toBottomOf="@id/attractionDescription" />
+
+    <ImageView
+        android:id="@+id/priceLogo"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        android:src="@drawable/price_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dropPin" />
+
+    <TextView
+        android:id="@+id/attractionCost"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:text="$$$$$$"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/priceLogo"
+        app:layout_constraintTop_toBottomOf="@id/attractionLocation" />
+
+    <ImageView
+        android:id="@+id/webSiteLogo"
+        android:layout_width="50dp"
+        android:layout_height="26dp"
+        android:src="@drawable/webforeground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/priceLogo"/>
+
+    <TextView
+        android:id="@+id/webSite"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@id/priceLogo"
+        app:layout_constraintTop_toBottomOf="@id/attractionCost"
+        android:text="Website"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

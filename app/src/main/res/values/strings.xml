@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Husky Tour Guide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Tab Names -->
+    <string name="category_attractions">Attractions</string>
+    <string name="category_parks">Theme Parks</string>
+    <string name="category_food">Restaurants</string>
+    <string name="category_shopping">Shopping</string>
+
+    <!-- Attractions names-->
+    <string name="georgia_aquarium">Georgia Aquarium</string>
+    <string name="world_coke">World of Coca-Cola</string>
+    <string name="zoo_atlanta">Zoo Atlanta</string>
+    <string name="centennial_park">Centennial Olympic Park</string>
+
+    <!-- Theme Parks Names -->
+    <string name="six_flags">Six Flags Over Georgia</string>
+    <string name="stone_mountain">Stone Mountain Park</string>
+    <string name="lanier_islands">Margaritaville at Lanier Islands</string>
+    <string name="legoland">LEGOLAND Discovery Center</string>
+
+    <!-- Restaurants Names-->
+    <string name="rays_on_the_river">Ray\'s on the River</string>
+    <string name="fogo_de_chao">Fogo de Chao</string>
+    <string name="sugar_factory">Sugar Factory American Brasseries</string>
+    <string name="atl_fish_market">Atlanta Fish Market</string>
+
+    <!-- Malls names-->
+    <string name="mall_of_ga">Mall of Georgia</string>
+    <string name="lenox_square">Lenox Square Mall</string>
+    <string name="altanta_station">Atlantic Station</string>
+    <string name="outlet_mall">Georgia Premium Outlets</string>
+
+    <!-- Attractions Addresses -->
+    <string name="aquarium_location">225 Baker St NW, Atlanta, GA 30313</string>
+    <string name="zoo_location">800 Cherokee Ave SE, Atlanta, GA 30315</string>
+    <string name="centennial_location">265 Park Ave W NW, Atlanta, GA 30313</string>
+    <string name="coke_location">121 Baker St NW, Atlanta, GA 30313</string>
+
+    <!-- Theme Parks Addresses-->
+    <string name="six_location">275 Riverside Pkwy, Austell, GA 30168</string>
+    <string name="stone_location">1000 Robert E Lee Blvd, Stone Mountain, GA 30083</string>
+    <string name="lanier_location">7650 Lanier Islands Pkwy, Buford, GA 30518</string>
+    <string name="lego_location">3500 Peachtree Rd NE, Atlanta, GA 30326</string>
+
+    <!-- Restaurants Addresses-->
+    <string name="rays_location">6700 Powers Ferry Road Sandy Springs, GA 30339</string>
+    <string name="fogo_location">3101 Piedmont Rd. Atlanta, GA 30305</string>
+    <string name="sugar_location">1080 Peachtree St Atlanta, GA 30309</string>
+    <string name="fish_location">265 Pharr Rd NE, Atlanta, GA 30305</string>
+
+    <!-- Shopping Addresses-->
+    <string name="mallga_location">3333 Buford Dr, Buford, GA 30519</string>
+    <string name="lenox_location">3393 Peachtree Rd NE, Atlanta, GA 30326</string>
+    <string name="atlantic_location">1371 Market Street, Atlanta, GA  30363</string>
+    <string name="outlets_location">800 GA-400 S, Dawsonville, GA 30534</string>
+
+    <!-- Attraction's description-->
+    <string name="aquarium_details">Georgia Aquarium is home to hundreds of species and thousands of animals across its seven major galleries, all of which reside  in more than 10 million US gallons (38,000 m3) of fresh and salt water.</string>
+    <string name="zoo_details">Zoo Atlanta is one of the oldest zoos in the United States. While animal displays draw visitors, animal research and conservation studies are also important activities of the zoo. An abundance of animals and plant species are found at the zoo, including 50 species of bird and 40 species of mammal with over 1,300 animals in total.</string>
+    <string name="centennial_details">Centennial Olympic Park is a 22-acre public park located in downtown Atlanta, Georgia. It was built by the Atlanta Committee for the Olympic Games as part of the infrastructure improvements for the 1996 Summer Olympics. It plays host to millions of visitors a year and several events, including a summer popular music concert series and an annual Independence Day concert and fireworks display.</string>
+    <string name="coke_details">Spend the day interacting with multiple exhibits, learning about the storied history of the iconic beverage brand, and sampling more than 100 different beverages from around the world.</string>
+
+    <!--Restaurant's description-->
+    <string name="rays_details">Situated along the Chattahoochee River, take in serene views and enjoy a menu filled with classic Ray’s dishes including fresh seafood flown in daily, prime cut steaks and regionally grown vegetables.</string>
+    <string name="fogo_details">Fogo de Chao is a leading Brazilian steakhouse, or churrascaria, which has specialized in fire-roasting high-quality meats since 1979 utilizing the centuries-old Southern Brazilian cooking technique of churrasco.</string>
+    <string name="sugar_details">Created by a team of world-class chefs, the menu selections include everything from pancakes and sweet and savory crepes to salads, burgers and shakes, all available throughout the day.</string>
+    <string name="fish_details">From the gracious service to the Southeast’s widest selection of fresh seafood, Atlanta Fish Market’s comfortable, neighborhood atmosphere is a relaxing retreat from the hustle and bustle of Buckhead. With more than 100 varieties from the deep flown in fresh daily, Atlanta Fish Market has something for everyone.</string>
+
+    <!--Shopping description-->
+    <string name="mallga_details">Opened in 1999 like Arbor Place Mall, it is currently the largest shopping mall in both the Atlanta Metropolitan Area and the state of Georgia, consisting of more than two hundred stores on three levels.</string>
+    <string name="lenox_details">Visited by more than 35 million people a year, Lenox Square is one of the most popular and profitable retail centers in the United States. Lenox Square attracts a significant amount of foreign shoppers and tourists; an estimated 40% of all visitors to the shopping center in 2009 were tourists.</string>
+    <string name="atlantic_details">Atlantic Station is an upscale commercial and residential area. At its heart is the open-air Atlantic Station mall, with popular fashion and home decor stores.</string>
+    <string name="outlets_details">This large upscale outlet center features more than 140 designer apparel and name brand stores in a Georgian Village setting and offers savings of 25-65% every day.</string>
+
+    <!-- Theme Parks descriptions-->
+    <string name="six_details">Featuring characters and themes from a variety of Warner Bros. properties such as Looney Tunes and DC Comics, the park opened to the public in 1967 as the second of three theme parks built by Six Flags. It features 11 roller coasters, including top-ranked Mind Bender and Goliath that have been recognized annually by Amusement Today, and over 30 other rides, shows, and attractions.</string>
+    <string name="stone_details">Stone Mountain Park is located just 15 miles east of Atlanta on 3,200 acres of natural beauty. Adventure awaits as you discover a wide variety of family-friendly activities and recreational options, plus many natural and historic sights. You also won’t want to miss dozens of exciting annual events.</string>
+    <string name="lanier_details">Lakeside water park with slides and a large wave pool, plus a mini-golf course and arcades.</string>
+    <string name="lego_details">Family entertainment center featuring toy displays, rides and 4D films plus gift shop.</string>
+
+    <!--Expense level-->
+    <string name="level1">$</string>
+    <string name="level2">$$</string>
+    <string name="level3">$$$</string>
+    <string name="level4">$$$$</string>
+    <string name="no_cost">FREE</string>
+
+    <!--Websites-->
+    <string name="aquarium_webSite">https://www.georgiaaquarium.org</string>
+    <string name="zoo_webSite">https://zooatlanta.org</string>
+    <string name="centennial_webSite">https://www.gwcca.org/centennial-olympic-park</string>
+    <string name="coke_webSite">https://www.worldofcoca-cola.com/</string>
+    <string name="rays_webSite">https://www.raysrestaurants.com/raysontheriver#"</string>
+    <string name="fogo_webSite">https://fogodechao.com/location/atlanta/</string>
+    <string name="sugar_webSite">https://sugarfactory.com/location/atlanta/</string>
+    <string name="fish_webSite">https://buckheadrestaurants.com/restaurant/atlanta-fish-market/</string>
+    <string name="mallGa_webSite">https://www.simon.com/mall/mall-of-georgia</string>
+    <string name="lenox_webSite">https://www.simon.com/mall/lenox-square</string>
+    <string name="atlantic_webSite">https://www.atlanticstation.com/</string>
+    <string name="outlets_webSite">https://www.premiumoutlets.com/outlet/north-georgia</string>
+    <string name="sixflags_webSite">https://www.sixflags.com/overgeorgia</string>
+    <string name="stone_webSite">https://www.stonemountainpark.com</string>
+    <string name="lanier_webSite">https://tickets.lanierislands.com"</string>
+    <string name="legoland_webSite">https://atlanta.legolanddiscoverycenter.com</string>
+
+
+
+</resources>
